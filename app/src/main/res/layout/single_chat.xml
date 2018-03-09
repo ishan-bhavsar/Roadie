@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.stellaquila.ChatLayout
+        xmlns:chat="http://schemas.android.com/apk/res/com.example.gptsi.roadie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/chat_layout"
+        chat:corner_radius="10dp"
+        chat:triangle_corner_radius="1dp"
+        chat:triangle_length="10dp"
+        chat:triangle_angle="45"
+        chat:padding="5dp"
+        chat:margin="5dp"
+        chat:layout_foreground="@color/colorPrimary"
+        chat:style="Iphone">
+
+            <LinearLayout
+                android:id="@+id/chat_img_layout"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:weightSum="8">
+
+                <ImageView
+                    android:id="@+id/chat_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="7"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/chat_cap"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:text="Caption"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chat_msg"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxWidth="250dp"
+                android:visibility="gone" />
+
+            <!--TODO location layout-->
+
+    </com.stellaquila.ChatLayout>
+
+</LinearLayout>

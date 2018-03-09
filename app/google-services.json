@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648439486845",
+    "firebase_url": "https://roadie-2bc9d.firebaseio.com",
+    "project_id": "roadie-2bc9d",
+    "storage_bucket": "roadie-2bc9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648439486845:android:13e69ad5682ca236",
+        "android_client_info": {
+          "package_name": "com.example.gptsi.roadie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648439486845-adendi576s2r8n79ovi76kj08ep1l8qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gptsi.roadie",
+            "certificate_hash": "0141c599652aea6d544041f165d9e68357bdffe8"
+          }
+        },
+        {
+          "client_id": "648439486845-oesek2tfimlbv4gt338gvgl16ptcnu37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB06PeCLFIvTDUhdB80OSLkQIOq_wbPJkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648439486845-oesek2tfimlbv4gt338gvgl16ptcnu37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

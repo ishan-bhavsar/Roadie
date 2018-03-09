@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gptsi.roadie.Activity.View_Bid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/Toolbar"
+        app:titleTextColor="@android:color/white"
+        android:id="@+id/appbar"/>
+
+    <include layout="@layout/refresh_progressbar"/>
+
+    <TextView
+        android:id="@+id/no_bid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextView"
+        android:gravity="center"
+        android:text="Request has been successfully submitted \n No Bids available yet"
+        android:textSize="25dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        style="@style/RecyclerView"/>
+
+</LinearLayout>
